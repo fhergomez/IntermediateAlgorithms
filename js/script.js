@@ -25,7 +25,8 @@ $(document).ready(function () {
     $('button').show();
   })
 
-  $('.submit').on('click', function () {
+  $('.submit').on('click', function (e) {
+    e.preventDefault();
     var num1 = $('.number1').val();
     var num2 = $('.number2').val();
     // console.log(num1 +','+num2);
