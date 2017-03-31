@@ -7,6 +7,14 @@ body {
   color: #FFF;
 }
 
+.main {
+  margin-top: 40px;
+}
+
 #number {
-  width: 200px;
+  width: 190px;
+}
+
+.colRight {
+  margin-left: 0px !important;
 }
