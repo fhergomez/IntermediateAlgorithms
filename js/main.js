@@ -8,7 +8,9 @@ $(document).ready(function () {
     console.log("diffArray Script loaded");
   });
 
-
+  $.getScript("js/convertToRoman.js", function(){
+    console.log("convertToRoman Script loaded");
+  });
 
 
 
