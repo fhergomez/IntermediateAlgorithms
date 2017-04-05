@@ -12,6 +12,4 @@ $(document).ready(function () {
     console.log("convertToRoman Script loaded");
   });
 
-
-
 });
