@@ -12,4 +12,8 @@ $(document).ready(function () {
     console.log("convertToRoman Script loaded");
   });
 
+  $.getScript("js/whatIsInAName.js", function(){
+    console.log("whatIsInAName Script loaded");
+  });
+
 });
