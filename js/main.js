@@ -28,12 +28,13 @@ $(document).ready(function () {
   return newArr;
 }
 
-
-
 $('.difference').on('click', function (e) {
   e.preventDefault();
   var arr1 = $('.arr1').val();
+  console.log(typeof(arr1));
+  console.log(arr1);
   var arr2 = $('.arr2').val();
+  console.log(arr2);
 
   $('#diffArray').html('The difference on both arrays is: ' + diffArray(arr1,arr2));
 });
