@@ -11,10 +11,14 @@ body {
   margin-top: 40px;
 }
 
+.row {
+  margin-top: 20px;
+}
+
 #number {
   width: 190px;
 }
 
 .colRight {
-  margin-left: 0px !important;
+  margin-left: 20px !important;
 }
