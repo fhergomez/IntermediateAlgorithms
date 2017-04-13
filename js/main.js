@@ -20,7 +20,7 @@ $(document).ready(function () {
     console.log("pigLatin Script loaded");
   });
 
-  .$getScript("js/searchAndReplace.js", function() {
+  $.getScript("js/searchAndReplace.js", function() {
     console.log("searchAndReplace loaded");
   })
 
