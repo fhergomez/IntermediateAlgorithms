@@ -22,6 +22,6 @@ $(document).ready(function () {
 
   $.getScript("js/searchAndReplace.js", function() {
     console.log("searchAndReplace loaded");
-  })
+  });
 
 });
