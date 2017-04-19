@@ -1,9 +1,9 @@
 function pair (str) {
-  str = str.toUppercase();
+  str = str.toUpperCase();
   str = str.split("");
   var placeHolderArray = [];
 
-  for (var i=0;i<str.length;i++) {
+  for (var i=0;i < str.length;i++) {
     if (str[i] == "G") {
       placeHolderArray.push(["G","C"]);
     } else if (str[i] == "C") {
